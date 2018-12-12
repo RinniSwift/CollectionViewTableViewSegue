@@ -242,8 +242,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zti-Gc-eX6">
-                                <rect key="frame" x="27" y="388" width="360" height="120"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="zti-Gc-eX6">
+                                <rect key="frame" x="147" y="268" width="120" height="360"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Snowflake" translatesAutoresizingMaskIntoConstraints="NO" id="dA4-xx-6CW">
                                         <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
@@ -253,14 +253,14 @@
                                         </constraints>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CandyCane" translatesAutoresizingMaskIntoConstraints="NO" id="9Vn-Q7-2X3">
-                                        <rect key="frame" x="120" y="0.0" width="120" height="120"/>
+                                        <rect key="frame" x="0.0" y="120" width="120" height="120"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="120" id="SsM-we-LEV"/>
                                             <constraint firstAttribute="width" constant="120" id="Z6d-Xu-WZo"/>
                                         </constraints>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Snowflake" translatesAutoresizingMaskIntoConstraints="NO" id="vwB-e1-rU0">
-                                        <rect key="frame" x="240" y="0.0" width="120" height="120"/>
+                                        <rect key="frame" x="0.0" y="240" width="120" height="120"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="120" id="bB4-PZ-bMP"/>
                                             <constraint firstAttribute="height" constant="120" id="leG-Ap-1Hi"/>
